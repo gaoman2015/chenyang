@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Root',
+  name: 'Index',
   data () {
     return {}
   },
