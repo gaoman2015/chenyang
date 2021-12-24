@@ -2,7 +2,10 @@
   <div class="container">
      <div class="header">
        <div class="left">
-         <span class="logo">CYJX</span>
+         <div class="logo">
+           <img src="../assets/jx.png" class="logo-img">
+           <span class="logo-span">CYJX</span>
+          </div>
          <span>河北宸洋机械零部件加工有限公司</span>
         </div>
        <div class="center">
@@ -10,21 +13,29 @@
          <div class="swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                 <div class="second-slide">
-                  <div style="padding-top: 10px;">我们成立于2018年，服务过一汽解放等知名企业</div>
-                  <div style="margin-top: 14px">
-                    <span class="tag-first">成立3年+</span>
-                    <span class="tag-second">一汽解放</span>
+                 <div class="first-slide">
+                    <img src="../assets/slider3.jpg" class="first-slide-img">
+                    <div class="first-slide-div">
+                      <div style="padding-top: 10px;">我们成立于2018年，服务过一汽解放等知名企业</div>
+                      <div style="margin-top: 14px">
+                        <span class="tag-first">成立3年+</span>
+                        <span class="tag-second">一汽解放</span>
+                      </div>
+                    </div>
                   </div>
-                </div>
               </div>
               <div class="swiper-slide">
-                 <div class="first-slide">
-                  <div style="padding-top: 10px;">我们拥有先进的数控设备，高素质的技术工人，专注各种精密零部件的加工</div>
-                  <div style="margin-top: 14px">
-                    <span class="tag-first">5台数控车床</span>
-                    <span class="tag-second">10年+经验技术人员</span>
-                  </div>
+                 <div class="second-slide">
+                    <img src="../assets/slider2.jpg" class="second-slide-img">
+                    <div class="second-slide-div">
+                      <div style="padding-top: 10px;">我们拥有先进的数控设备，高素质的技术工人，专注各种精密零部件的加工</div>
+                      <div style="margin-top: 14px">
+                        <span class="tag-first">5台斜轨数控车床</span>
+                        <span class="tag-first">1台车铣复合机床</span>
+                        <span class="tag-first">3台加工中心</span>
+                        <span class="tag-second">10年+经验技术人员</span>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -113,7 +124,7 @@
                   <el-card :body-style="{ padding: '10px' }">
                     <img src="../assets/machine8.png" preview="7" preview-text="立式加工中心">
                     <div style="padding: 14px;">
-                      <span>加工中心</span>
+                      <span>车铣复合机床</span>
                     </div>
                   </el-card>
                 </el-col>
@@ -230,17 +241,34 @@ export default {
   font-size: 26px;
   color: #fff;
   font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 .logo {
-  background-color: #000;
-  background-image: url('../assets/jx.png');
+  /* background-color: #000; */
+  /* background-image: url('../assets/jx.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  font-weight: 700;
-  padding: 10px;
+  background-size: cover; */
+  /* width: 20px;
+  height: 20px; */
+  /* padding: 10px; */
+  width: 80px;
+  height: 40px;
+  position: relative;
+  right: 5px;
+}
+.logo-img {
+  width: 80px;
+  height: 40px;
   border-radius: 10px;
+}
+.logo-span {
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .center {
   font-weight: 600;
@@ -397,22 +425,46 @@ img {
   height: 90px;
 }
 .first-slide {
-  background-image: url('../assets/slider2.jpg');
+  /* background-image: url('../assets/slider3.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   height: 90px;
   border-radius: 5px;
   color: #0d4975;
   font-size: 16px;
 }
+.first-slide-img {
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+}
+.first-slide-div {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
 .second-slide {
-  background-image: url('../assets/slider3.jpg');
+  /* background-image: url('../assets/slider2.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   height: 90px;
   border-radius: 5px;
   color: #0d4975;
   font-size: 16px;
+}
+.second-slide-img {
+  height: 90px;
+  width: 100%;
+  border-radius: 10px;
+}
+.second-slide-div {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
 .tag-first {
   background: #ffa50036;
