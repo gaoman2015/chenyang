@@ -45,9 +45,9 @@
       <div class="aside">
         <div class="aside-left">
           <div class="our-machine">我们的设备</div>
+          <div class="our-machine-item">斜轨数控车床</div>
+          <div class="our-machine-item">车铣复合机床</div>
           <div class="our-machine-item">立式加工中心</div>
-          <div class="our-machine-item">车铣中心</div>
-          <div class="our-machine-item">斜轨车床</div>
           <div class="our-product">我们的产品</div>
           <div class="our-product-item">旋转轴</div>
           <div class="our-product-item">支架</div>
