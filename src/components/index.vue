@@ -182,6 +182,7 @@
   </div>
 </template>
 <script>
+/* eslint-disable */
 import Swiper from 'swiper'
 import SwiperCore, { Autoplay, FreeMode, Scrollbar, Mousewheel } from 'swiper'
 SwiperCore.use([Autoplay, FreeMode, Scrollbar, Mousewheel])
