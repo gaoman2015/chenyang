@@ -74,16 +74,6 @@
                 </el-card>
               </el-col>
             </el-row>
-             
-             <!-- <div>
-              <img src="../assets/machine1.png">
-            </div>
-            <div>
-              <img src="../assets/machine1.png">
-            </div>
-            <div>
-              <img src="../assets/machine1.png"> -->
-            </div>
           </div>
         </div>
       </div>
