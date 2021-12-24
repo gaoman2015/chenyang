@@ -38,9 +38,10 @@
           <div class="our-machine-item">车铣中心</div>
           <div class="our-machine-item">斜轨车床</div>
           <div class="our-product">我们的产品</div>
-          <div class="our-product-item">车体部件1</div>
-          <div class="our-product-item">车体部件2</div>
-          <div class="our-product-item">车体部件3</div>
+          <div class="our-product-item">旋转轴</div>
+          <div class="our-product-item">支架</div>
+          <div class="our-product-item">导块</div>
+          <div class="our-product-item">互锁板</div>
           <div class="contact-us">联系我们</div>
           <div class="contact-us-item">联系人：高经理</div>
           <div class="contact-us-item">手机：17366547879</div>
@@ -78,7 +79,7 @@
                   <el-card :body-style="{ padding: '10px' }">
                     <img src="../assets/machine7.png" preview="3" class="image">
                     <div style="padding: 14px;">
-                      <span>数控车床</span>
+                      <span>斜轨数控车床</span>
                     </div>
                   </el-card>
                 </el-col>
@@ -86,7 +87,7 @@
                   <el-card :body-style="{ padding: '10px' }">
                     <img src="../assets/machine9.png" preview="4" preview-text="立式加工中心">
                     <div style="padding: 14px;">
-                      <span>数控车床</span>
+                      <span>斜轨数控车床</span>
                     </div>
                   </el-card>
                 </el-col>
@@ -122,25 +123,25 @@
              <el-row>
                 <el-col :span="7">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product1.png" preview="8" preview-text="">
+                    <img src="../assets/product1.png" preview="8" preview-text="旋转轴">
                     <div style="padding: 14px;">
-                      <span>车体部件1</span>
+                      <span>旋转轴</span>
                     </div>
                   </el-card>
                 </el-col>
                 <el-col :span="7" :offset="1">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product2.png" preview="9" class="image">
+                    <img src="../assets/product2.png" preview="9" class="image" preview-text="支架">
                     <div style="padding: 14px;">
-                      <span>车体部件2</span>
+                      <span>支架</span>
                     </div>
                   </el-card>
                 </el-col>
                 <el-col :span="7" :offset="1">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product3.png" preview="10" preview-text="">
+                    <img src="../assets/product3.png" preview="10" preview-text="导块">
                     <div style="padding: 14px;">
-                      <span>车体部件3</span>
+                      <span>导块</span>
                     </div>
                   </el-card>
                 </el-col>
@@ -148,25 +149,25 @@
               <el-row class="machine-body-mt">
                 <el-col :span="7">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product4.png" preview="11" preview-text="">
+                    <img src="../assets/product4.png" preview="11" preview-text="导块">
                     <div style="padding: 14px;">
-                      <span>车体部件4</span>
+                      <span>导块</span>
                     </div>
                   </el-card>
                 </el-col>
                 <el-col :span="7" :offset="1">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product5.png" preview="12" preview-text="">
+                    <img src="../assets/product5.png" preview="12" preview-text="导块">
                     <div style="padding: 14px;">
-                      <span>车体部件5</span>
+                      <span>导块</span>
                     </div>
                   </el-card>
                 </el-col>
                 <el-col :span="7" :offset="1">
                   <el-card :body-style="{ padding: '10px' }">
-                    <img src="../assets/product6.png" preview="13" preview-text="">
+                    <img src="../assets/product6.png" preview="13" preview-text="互锁板">
                     <div style="padding: 14px;">
-                      <span>车体部件6</span>
+                      <span>互锁板</span>
                     </div>
                   </el-card>
                 </el-col>
