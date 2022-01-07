@@ -30,9 +30,9 @@
                     <div class="second-slide-div">
                       <div style="padding-top: 10px;">我们拥有先进的数控设备，高素质的技术工人，专注各种精密零部件的加工</div>
                       <div style="margin-top: 14px">
-                        <span class="tag-first">5台斜轨数控车床</span>
-                        <span class="tag-first">1台车铣复合机床</span>
-                        <span class="tag-first">3台加工中心</span>
+                        <span class="tag-first">斜轨数控车床</span>
+                        <span class="tag-first">车铣复合机床</span>
+                        <span class="tag-first">台加工中心</span>
                         <span class="tag-second">10年+经验技术人员</span>
                       </div>
                     </div>
@@ -53,6 +53,7 @@
           <div class="our-product-item">支架</div>
           <div class="our-product-item">导块</div>
           <div class="our-product-item">互锁板</div>
+          <div class="our-product-item">...</div>
           <div class="contact-us">联系我们</div>
           <div class="contact-us-item">联系人：高经理</div>
           <div class="contact-us-item">手机：17366547879</div>
@@ -188,7 +189,7 @@
         </div>
       </div>
       <div class="footer">
-        Copyright © 2021 北京宸洋机械零部件加工有限公司. All Rights Reserved
+        Copyright © 2022 北京宸洋机械零部件加工有限公司. All Rights Reserved
       </div>
   </div>
 </template>
@@ -247,13 +248,6 @@ export default {
   align-items: center;
 }
 .logo {
-  /* background-color: #000; */
-  /* background-image: url('../assets/jx.png');
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* width: 20px;
-  height: 20px; */
-  /* padding: 10px; */
   width: 80px;
   height: 40px;
   position: relative;
@@ -284,7 +278,6 @@ export default {
 }
 .aside-left {
   width: 320px;
-  height: 500px;
 }
 .our-machine {
   width: 100%;
@@ -381,7 +374,7 @@ export default {
 }
 img {
   width: 95%;
-  height: 350px;
+  height: 390px;
   cursor: pointer;
 }
 .machine-title {
